@@ -1,0 +1,67 @@
+<?php
+$manidata = simplexml_load_file('menixShem.xml');
+if(!$menidata){
+    echo 'Fail to load XML file';
+}
+else{
+    foreach($menidata as $ham){
+        echo 'Firstname: '.$ham->ime.'<br/>';
+        echo 'Lastname: '.$ham->cijena.'<br/>';
+        echo 'Age: '.$ham->opis.'<br/>';
+    }
+}
+?>    
+
+
+
+//<?php
+$studentdata = simplexml_load_file('students.xml');
+if(!$studentdata){
+    echo 'Fail to load XML file';
+}
+else{
+    foreach($studentdata as $student){
+        echo 'Firstname: '.$student->firstname.'<br/>';
+        echo 'Lastname: '.$student->lastname.'<br/>';
+        echo 'Age: '.$student->age.'<br/>';
+        echo 'Class: '.$student->class.'<br/><br/>';
+    }
+}
+?>    
+
+
+<!-- 
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<students>
+<student>
+<firstname>John</firstname>
+<lastname>Player</lastname>
+<age>12</age>
+<class>5</class>
+</student>
+<student>
+<firstname>Smith</firstname>
+<lastname>Soy</lastname>
+<age>11</age>
+<class>4</class>
+</student>
+</students>  -->
+
+
+
+
+<?php
+$manidata = simplexml_load_file('menixShem.xml');
+if(!$manidata){
+    echo 'Fail to load XML file';
+}
+else{
+    foreach($menidata as $jelovnik){
+        echo 'Firstname: '.$ham->ime.'<br/>';
+        echo 'Lastname: '.$ham->cijena.'<br/>';
+        echo 'Age: '.$ham->opis.'<br/>';
+    }
+}
+?>    
+

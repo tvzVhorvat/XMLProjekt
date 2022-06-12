@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="men.xsl"?>
+<jelovnik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="men.xsl">
+    <ham>
+        <ime>hamburger1</ime>
+        <cijena>20.00</cijena>
+        <opis>Sastoji se od mesa i sira</opis>
+    </ham>
+    <ham>
+        <ime>hamburger2</ime>
+        <cijena>30.99</cijena>
+        <opis>sastoji se od mesa, sira, salate</opis>
+    </ham>
+    <ham>
+        <ime>hamburger3</ime>
+        <cijena>35.50</cijena>
+        <opis>sastoji se od mesa sira i kastavca</opis>
+    </ham>
+</jelovnik>
+
+
